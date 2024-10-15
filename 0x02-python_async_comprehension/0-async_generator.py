@@ -3,7 +3,7 @@
 
 import asyncio
 import random
-
+from typing import Generator
 
 async def async_generator():
     """Asynchronously generates a random number between 0 and 10
